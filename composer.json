@@ -1,0 +1,25 @@
+{
+    "name": "hexlet/code",
+    "bin": [
+        "bin/gendiff"
+    ],
+    "autoload": {
+        "files": [
+            "src/Gendiff/Gendiff.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "lapaduga",
+            "email": "deniskotov29042015@gmail.com"
+        }
+    ],
+    "description": "hexlet 2nd study project",
+    "license": "MIT",
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8"
+    }
+}
